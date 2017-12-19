@@ -1,0 +1,59 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.header-container {
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+  background-color: cadetblue;
+  max-width: 960px;
+}
+
+.company-banner {
+  display: inline-flex;
+  color: white;
+  height: 3rem;
+  padding: 1rem 2rem;
+}
+
+.company-logo {
+  display: inline-flex;
+  align-items: flex-start;
+}
+
+.logo {
+  height: 1.5rem;
+}
+
+.company-logo .name {
+  font-size: 1rem;
+}
+
+.company-banner nav {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+main-banner {
+    background-image: url("../resources/images/mainbanner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+
+.tagline {
+  background-color: white;
+  color: black;
+}
+
+.tagline-text {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+
+}
