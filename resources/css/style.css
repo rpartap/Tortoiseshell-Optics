@@ -4,12 +4,15 @@ html {
   line-height: 1.4;
 }
 
+/*logo banner*/
 .header-container {
-  display: flex;
+  display: inline-flex;
   margin-top: 1rem;
-  align-self: center;
+  align-items: flex-start;
   background-color: cadetblue;
-  max-width: 960px;
+  width: 960px;
+  height: 3rem;
+  align-self: flex-start;
 }
 
 .company-banner {
@@ -24,36 +27,50 @@ html {
   align-items: flex-start;
 }
 
-.logo {
+.logo img {
   height: 1.5rem;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
 }
 
-.company-logo .name {
+.name {
   font-size: 1rem;
 }
 
-.company-banner nav {
+.company-logo nav {
   display: inline-flex;
-  align-items: flex-end;
+  align-content: flex-end;
   justify-content: space-between;
 }
 
-main-banner {
-    background-image: url("../resources/images/mainbanner.jpeg");
+.company-logo nav a{
+  color: white;
+}
+
+/*main banner*/
+.main-banner {
+    background-image: url("../images/glasses-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 30rem;
+    display: flex;
+    justify-content: center;
 }
 
 .tagline {
+  display: flex;
   background-color: white;
   color: black;
+  height: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  align-items: center;
+  margin-top: 14rem;
 }
 
 .tagline-text {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
-
 }
