@@ -4,73 +4,131 @@ html {
   line-height: 1.4;
 }
 
+header {
+  display: flex;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+  justify-content: center;
+}
+
 /*logo banner*/
-.header-container {
-  display: inline-flex;
-  margin-top: 1rem;
-  align-items: flex-start;
+
+.banner-container {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
   background-color: cadetblue;
   width: 960px;
-  height: 3rem;
-  align-self: flex-start;
+  height: 1rem;
+  padding: 1rem 0;
 }
 
-.company-banner {
-  display: inline-flex;
-  color: white;
-  height: 3rem;
-  padding: 1rem 2rem;
+/*logo*/
+
+nav div {
+  display: flex;
+  align-items: center;
 }
 
-.company-logo {
-  display: inline-flex;
-  align-items: flex-start;
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding-left: 2rem;
 }
 
 .logo img {
   height: 1.5rem;
-  margin-right: 1rem;
-  padding-bottom: 1rem;
+  padding-right: 1rem;
 }
 
-.name {
+.logo span {
   font-size: 1rem;
-}
-
-.company-logo nav {
-  display: inline-flex;
-  align-content: flex-end;
-  justify-content: space-between;
-}
-
-.company-logo nav a{
   color: white;
 }
 
-/*main banner*/
-.main-banner {
-    background-image: url("../images/glasses-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 30rem;
-    display: flex;
-    justify-content: center;
+/*menu*/
+
+ul {
+  margin: 1rem 0;
+}
+
+ul li {
+  display: inline;
+  padding-right: 2rem;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.short-menu {
+  display: none;
+}
+
+/*tagline*/
+
+.flex-container {
+  display: flex;
+  align-items: flex-end;
+  height: 15rem;
+
 }
 
 .tagline {
-  display: flex;
+  display: inline-flex;
+  position: relative;
+  left: 200px;
   background-color: white;
   color: black;
-  height: 5rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding: 1.5rem 5rem;
   align-items: center;
-  margin-top: 14rem;
+  margin-top: 10rem;
+  height: 2rem;
+  width: 25rem;
 }
 
-.tagline-text {
+.tagline h1 {
   font-weight: bold;
   font-size: 2rem;
   line-height: 1.2;
+}
+
+/*icons*/
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.icon-container img  {
+  display: block;
+}
+
+.exams, .fittings, .delivery {
+  height: 8rem;
+}
+
+.image-exams img {
+  width: 3.5rem;
+}
+
+.image-fittings img, .image-delivery img {
+  width: 5rem;
+}
+
+.description {
+  display: flex;
+  text-align: center;
 }
