@@ -22,9 +22,10 @@ header {
   align-items: center;
   justify-content: space-between;
   background-color: cadetblue;
-  width: 960px;
   height: 1rem;
   padding: 1rem 0;
+  width: 960px;
+  margin: auto;
 }
 
 /*logo*/
@@ -79,6 +80,8 @@ ul li a {
   display: flex;
   align-items: flex-end;
   height: 15rem;
+  max-width: 960px;
+  margin: auto;
 
 }
 
@@ -86,11 +89,11 @@ ul li a {
   display: inline-flex;
   position: relative;
   left: 200px;
-  background-color: white;
   color: black;
   padding: 1.5rem 5rem;
   align-items: center;
   margin-top: 10rem;
+  margin-left: 5rem;
   height: 2rem;
   width: 25rem;
 }
@@ -106,6 +109,8 @@ ul li a {
 .service-container {
   display: flex;
   justify-content: center;
+  max-width: 960px;
+  margin: auto;
 }
 
 .description {
@@ -132,4 +137,72 @@ ul li a {
 
 .services img.paper-icon {
   width: 3.5rem;
+}
+
+.information-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 960px;
+  margin: auto;
+  padding-bottom: 5rem;
+  padding-left: 20rem;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  margin-top: 3rem;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+}
+
+.information {
+  display: block;
+  margin-right: 5%;
+  width: 35%;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+/*footer*/
+
+footer {
+  padding-left: 15rem;
+}
+
+.footer-container {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  background-color: azure;
+  width: 960px;
+  padding: 4rem;
+  margin: auto;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding-left: 2rem;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+.footer-logo span {
+  font-size: 1rem;
+  color: black;
 }
